@@ -4,7 +4,8 @@
 Many times in my job I need to generate random data for a specific table in order to reproduce an issue.  
 After writing many random generators for every table, I decided to write a random data generator, able to get the table structure and generate random data for it.  
 Plase take into consideration that this is the first version and it doesn't support all field types yet!  
-
+自动帮你生成 大量测试数据 很方便
+ ./mysql_random_data_load -h10.43.46.70 -uroot -proot -P 3306 --max-threads=8 nosql testone_header 100000
 **NOTICE**  
 This is an early stage project.  
 
